@@ -8,84 +8,6 @@
     android:background="#333"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="24dp"
-        android:text="Circulo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="56dp"
-        android:text="Cuadrado"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginBottom="48dp"
-        android:text="Rectangulo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="48dp"
-        android:text="Triangulos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="136dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/circle"
-        tools:layout_editor_absoluteY="166dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="129dp"
-        android:layout_height="141dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/square"
-        tools:layout_editor_absoluteY="177dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="171dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="135dp"
-        android:layout_height="115dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/triangle" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -99,5 +21,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/IB1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:background=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/circle_icon" />
+
+    <ImageButton
+        android:id="@+id/IB2"
+        android:layout_width="116dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="44dp"
+        android:background=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/square_icon" />
+
+    <ImageButton
+        android:id="@+id/IB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="132dp"
+        android:background=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IB"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/rectangle_icon" />
+
+    <ImageButton
+        android:id="@+id/IB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="32dp"
+        android:background=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IB2"
+        app:layout_constraintVertical_bias="0.504"
+        app:srcCompat="@drawable/triange_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Shapes"
         tools:targetApi="31">
         <activity
+            android:name=".triangleView"
+            android:exported="false" />
+        <activity
+            android:name=".rectangleView"
+            android:exported="false" />
+        <activity
+            android:name=".squareView"
+            android:exported="false" />
+        <activity
+            android:name=".circleView"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

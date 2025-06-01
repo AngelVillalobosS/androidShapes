@@ -31,20 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultTV3" />
 
-    <EditText
-        android:id="@+id/secondValueETN2"
-        android:layout_width="288dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="60dp"
-        android:ems="10"
-        android:hint="@string/width"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstValueETN2" />
-
     <TextView
         android:id="@+id/titleTV3"
         android:layout_width="wrap_content"
@@ -74,14 +60,12 @@
         android:id="@+id/calcBtn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
         android:backgroundTint="@color/celurean"
         android:text="@string/calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondValueETN2"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintTop_toBottomOf="@+id/firstValueETN2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

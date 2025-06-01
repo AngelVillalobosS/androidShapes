@@ -3,8 +3,10 @@
 <!-- Common Strings-->
     <string name="pendientArea">Esperando valores...</string>
     <string name="height">Ingresar la altura</string>
-    <string name="width">Ingresar el ancho</string>
+    <string name="width">Ingresar la base</string>
     <string name="calculate">Calcular</string>
 <!--    Rectangle View-->
     <string name="rectangleTitle">Area del Rectangulo</string>
+    <string name="circleTitle">Circulo</string>
+    <string name="Radius">Ingresa el radio</string>
 </resources>

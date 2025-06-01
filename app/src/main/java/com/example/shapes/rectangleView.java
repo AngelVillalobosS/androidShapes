@@ -45,7 +45,7 @@ public class rectangleView extends AppCompatActivity {
                 float area = num1 * num2;
                 float perimeter = area * 2;
 
-                result.setText(String.format("El area es: %.2f \n El perimetro es: %.2f", area, perimeter));
+                result.setText(String.format("El area es: %.2f \nEl perimetro es: %.2f", area, perimeter));
 
             }
         });

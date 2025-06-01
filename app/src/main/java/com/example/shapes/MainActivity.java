@@ -33,9 +33,6 @@ public class MainActivity extends AppCompatActivity {
         bRectangle = findViewById(R.id.IB3);
         bTriangle = findViewById(R.id.IB4);
 
-        Intent squareView = new Intent(MainActivity.this, squareView.class);
-        startActivity(squareView);
-
         bSquare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

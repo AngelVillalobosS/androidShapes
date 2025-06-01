@@ -1,6 +1,10 @@
 package com.example.shapes;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +13,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class squareView extends AppCompatActivity {
+    private Button calcBtn;
+    private EditText heightET, widhtET;
+    private TextView resultMsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
